@@ -4,8 +4,9 @@
     flex-direction: row;
 }
 
-.n-nav{
-    max-width: 1600px;
+.navBar{
+    display: flex;
+    max-width: 92%;
     width: 100%;
     margin: 0 auto;
     position: relative;

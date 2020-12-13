@@ -3,16 +3,19 @@ import NavElements from './NavElements';
 import navbarStyles from './navbar.module.css';
 
 const NavBar = () => (
-    <nav>
+    <nav className={navbarStyles.navBar}>
         <ul className={navbarStyles.list}>
             <NavElements to={"/"}>
                 About
             </NavElements>
             <NavElements to={"/"}>
-                Contact
+                Projects
             </NavElements>
             <NavElements to={"/"}>
                 Resume
+            </NavElements>
+            <NavElements to={"/"}>
+                Contact
             </NavElements>
         </ul>
     </nav>

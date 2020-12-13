@@ -1,0 +1,23 @@
+.introDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.introText{
+    flex-flow: column;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.title{
+    width: 60%;
+    margin: auto;
+    font-size: 6em;
+    letter-spacing: -4px;
+}
+
+.bio{
+    font-size: 1.3em;
+    padding: 0;
+}
+
