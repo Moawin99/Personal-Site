@@ -4,7 +4,7 @@ import mePic from '../images/BedroomPic.jpg';
 
 const IntroPic = () => (
     <div className={introDiv.introDiv}>
-        <img src={mePic} />
+        <img className={introDiv.photo} src={mePic} />
     </div>
 )
 

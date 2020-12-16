@@ -7,7 +7,7 @@ const IntroText = () => (
             Hi! I'm Mark.
         </h1>
         <p className={introDivs.bio}>
-            I'm a computer science studendt in my third year at Stony Brook University.
+            I'm a computer science student in my third year at Stony Brook University.
             I have a passion for programming and music.
         </p>
     </div>
