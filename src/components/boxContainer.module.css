@@ -1,11 +1,44 @@
-.colorBox{
+.colorBox1{
     position: absolute;
-    height: 135px;
-    width: 135px;
-    top: 60px;
+    height: 125px;
+    width: 125px;
+    top: 70px;
     left: 920px;
     border-radius: 20px;
-    background: linear-gradient(145deg, #ffc468, #e4a557);
-    box-shadow:  20px 20px 29px #9f733d, 
-                 -20px -20px 29px #fffb85;
+    background: #fc4a1a; 
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  
+    background: linear-gradient(to right, #f7b733, #fc4a1a); 
+
+}
+
+.colorBox2{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 20px;
+    top: 70px;
+    right: 225px;
+    background: #4776E6;  
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  
+    background: linear-gradient(to right, #8E54E9, #4776E6); 
+}
+
+.colorBox3{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 20px;
+    bottom: 7px;
+    left: 920px;
+    background: linear-gradient(to right top, #f0def5, #ffdfea, #ffe4df, #ffeada, #f5f2de);
+}
+
+.colorBox4{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 20px;
+    bottom: 7px;
+    right: 225px;
+    background: linear-gradient(to right top, #008081, #007681, #006b7f, #00607b, #0a5574);
 }
