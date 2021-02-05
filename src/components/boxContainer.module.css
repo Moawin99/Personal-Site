@@ -3,7 +3,7 @@
     height: 125px;
     width: 125px;
     top: 70px;
-    left: 920px;
+    left: 925px;
     border-radius: 20px;
     background: #fc4a1a; 
     background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  
@@ -30,7 +30,9 @@
     border-radius: 20px;
     bottom: 7px;
     left: 920px;
-    background: linear-gradient(to right top, #f0def5, #ffdfea, #ffe4df, #ffeada, #f5f2de);
+    background: #800080; 
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);
+    background: linear-gradient(to right, #ffc0cb, #800080); 
 }
 
 .colorBox4{

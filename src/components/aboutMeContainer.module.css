@@ -1,0 +1,8 @@
+.aboutMeBox{
+    display: flex;
+    margin: auto;
+    background: linear-gradient(to right, #8E54E9, #4776E6);
+    flex-flow: row wrap; 
+    padding: 0 1rem;
+    margin: 0 7rem;
+}

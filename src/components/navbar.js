@@ -14,9 +14,6 @@ const NavBar = () => (
             <NavElements to={"/"}>
                 Resume
             </NavElements>
-            <NavElements to={"/"}>
-                Contact
-            </NavElements>
         </ul>
     </nav>
 )

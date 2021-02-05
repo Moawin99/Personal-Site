@@ -1,6 +1,5 @@
 .layoutDiv{
     margin: 3rem auto;
-    max-width: 650;
     padding: 0 1rem;
     flex-flow: column wrap;
 }
