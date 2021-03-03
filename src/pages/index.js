@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 import IntroContainer from "../components/introContainer"
 import AboutMe from "../components/aboutMeContainer"
+import ProjectBox from "../components/projectContainer"
 
 const IndexPage = () => (
   <>
@@ -11,6 +12,7 @@ const IndexPage = () => (
   <Layout>
     <IntroContainer />
     <AboutMe />
+    <ProjectBox />
   </Layout>
   </>
 )
