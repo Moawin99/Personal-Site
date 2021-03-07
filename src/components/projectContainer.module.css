@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column wrap;
     background: linear-gradient(to right, #f7b733, #fc4a1a); 
-    padding: 0 1rem;
+    padding: 2.5rem 1rem;
     margin: 5rem 7rem;;
     border-radius: 50px;
     width: auto;
