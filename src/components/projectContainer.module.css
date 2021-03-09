@@ -14,3 +14,12 @@
     transform: translate3d(0,-5px,0);
     box-shadow: 0 52px 74px rgba(0,0,0,.12);
 }
+
+.text{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.gridContainer{
+    display: grid;
+}
