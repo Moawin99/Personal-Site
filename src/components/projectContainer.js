@@ -6,20 +6,20 @@ const data = [
     {
         "name": "InternZip",
         "github": "https://github.com/Moawin99/CEWIT-Hackathon-2021",
-        "bio": "Full stack Hackathon project that acts as a platfrom for interns to find housing for internships. Won best domain",
+        "bio": "Full stack Hackathon project that acts as a platfrom for interns to find housing for internships. Won best domain at CEWIT 2021",
         "link": "https://curious-setup-306205.df.r.appspot.com/",
         "isLive": true
     },
     {
         "name": "Discord-Bot",
         "github": "https://github.com/Moawin99/discord-bot",
-        "bio": "Discord bot written in python. Includes games that can be played in a server, as well as data fetching from multiple api's to display motivational quotes",
+        "bio": "Discord bot written in python. Includes games that can be played in a server, as well as data fetching from multiple api's to display motivational quotes and user info",
         "isLive": false
     },
     {
         "name": "Writtery",
         "github": "https://github.com/Moawin99/Journal",
-        "bio": "Full stack Nodejs and React project that serves as a journnal that plays music according to your mood. The utalizes the Spotify Api and filters songs according to mood",
+        "bio": "Full stack Nodejs and React project that serves as a journnal that plays music according to your mood. This utalizes the Spotify Api and filters songs according to mood",
         "isLive": false
     },
     {
