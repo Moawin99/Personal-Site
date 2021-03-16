@@ -5,6 +5,7 @@ import Header from "../components/header"
 import IntroContainer from "../components/introContainer"
 import AboutMe from "../components/aboutMeContainer"
 import ProjectBox from "../components/projectContainer"
+import ResumeBox from "../components/resumeContainer"
 
 const IndexPage = () => (
   <>
@@ -13,6 +14,7 @@ const IndexPage = () => (
     <IntroContainer />
     <AboutMe />
     <ProjectBox />
+    <ResumeBox />
   </Layout>
   </>
 )

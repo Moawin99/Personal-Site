@@ -1,0 +1,16 @@
+.container{
+    background: linear-gradient(to right top, #008081, #007681, #006b7f, #00607b, #0a5574);
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2.5rem 1rem;
+    margin: 5rem 7rem;;
+    border-radius: 50px;
+    width: auto;
+    align-items: center;
+}
+
+.container:hover{
+    transition:all .4s ease-in-out;
+    transform: translate3d(0,-5px,0);
+    box-shadow: 0 52px 74px rgba(0,0,0,.12);
+}
