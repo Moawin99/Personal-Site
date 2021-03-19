@@ -1,8 +1,17 @@
-.footerBox{
-
-}
-
 .icons{
     height: 2em;
     width: 2em;
+}
+
+.footerContainer{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.iconList{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
 }

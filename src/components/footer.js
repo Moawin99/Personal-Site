@@ -1,15 +1,27 @@
 import React from 'react';
 import footerStyles from './footer.module.css';
+import github from '../icons/githubIcon.png';
+import insta from '../icons/instaIcon.png';
+import spotify from '../icons/spotifyIcon.png';
+import twitter from '../icons/twitterIcon.png';
 
 const Footer = (props) => (
-    <div>
-        <ul>
+    <footer className={footerStyles.footerContainer}>
+        <ul className={footerStyles.iconList}>
             <li>
-                <img className={footerStyles.icons} src="https://www.transparentpng.com/thumb/logo-instagram/zI6ZGS-black-logo-instagram-png-transparent.png" alt="black logo Instagram png transparent @transparentpng.com"></img>
-                
+                <a href="https://www.instagram.com/markmoawad9/"><img className={footerStyles.icons} src={insta} /></a>
+            </li>
+            <li>
+                <a href="https://github.com/Moawin99"><img className={footerStyles.icons} src={github} /></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Mark_Moawad"><img className={footerStyles.icons} src={twitter} /></a>
+            </li>
+            <li>
+                <a href="https://open.spotify.com/user/swagmario99?si=lIvk6Z6xQAWWhids0cNJTA"><img className={footerStyles.icons} src={spotify} /></a>
             </li>
         </ul>
-    </div>
+    </footer>
 )
 
 export default Footer;
