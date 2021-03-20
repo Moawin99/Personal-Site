@@ -1,4 +1,4 @@
-import { Link } from 'gatsby';
+import {Link, animateScroll as scroll} from 'react-scroll'
 import React from 'react';
 import NavElementStyles from './NavElements.module.css';
 
