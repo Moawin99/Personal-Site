@@ -4,3 +4,9 @@
     flex-flow: row wrap;
     padding: 140px 6em 270px;
 }
+
+@media only screen and (maxwidth : 320px){
+   .introContain{
+       flex-flow: column wrap;
+   } 
+}
