@@ -5,6 +5,7 @@ import insta from '../icons/instaIcon.png';
 import spotify from '../icons/spotifyIcon.png';
 import twitter from '../icons/twitterIcon.png';
 import linkedin from '../icons/linkedinIcon.png';
+import email from '../icons/emailIcon.png';
 
 const Footer = (props) => (
     <footer className={footerStyles.footerContainer}>
@@ -23,6 +24,9 @@ const Footer = (props) => (
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/mark-moawad-2031a81a3/"><img className={footerStyles.icons} src={linkedin} /></a> 
+            </li>
+            <li>
+                <a href="mailto: msmoawad99@gmail.com"><img className={footerStyles.icons} src={email} /></a>
             </li>
         </ul>
     </footer>

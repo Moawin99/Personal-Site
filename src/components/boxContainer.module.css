@@ -2,13 +2,13 @@
     position: absolute;
     height: 125px;
     width: 125px;
-    top: 70px;
-    left: 925px;
+    top: 100px;
+    left: 965px;
     border-radius: 20px;
     background: #fc4a1a; 
     background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  
     background: linear-gradient(to right, #f7b733, #fc4a1a); 
-
+    z-index: -1000;
 }
 
 .colorBox2{
@@ -16,8 +16,8 @@
     height: 125px;
     width: 125px;
     border-radius: 20px;
-    top: 70px;
-    right: 225px;
+    top: 100px;
+    right: 285px;
     background: #4776E6;  
     background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  
     background: linear-gradient(to right, #8E54E9, #4776E6); 
@@ -29,7 +29,7 @@
     width: 125px;
     border-radius: 20px;
     bottom: 7px;
-    left: 920px;
+    left: 950px;
     background: #800080; 
     background: -webkit-linear-gradient(to right, #ffc0cb, #800080);
     background: linear-gradient(to right, #ffc0cb, #800080); 
@@ -41,8 +41,9 @@
     width: 125px;
     border-radius: 20px;
     bottom: 7px;
-    right: 225px;
+    right: 255px;
     background: linear-gradient(to right top, #008081, #007681, #006b7f, #00607b, #0a5574);
+    z-index: -1000;
 }
 
 @media only screen 

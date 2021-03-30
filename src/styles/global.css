@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+
 html {
 	background-color: #fefaf6;
 	scroll-behavior: smooth;
@@ -8,6 +10,6 @@ body{
 }
 
 :root{
-	font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-family: 'Averia Serif Libre', cursive;
 }
 
