@@ -14,3 +14,22 @@
     transform: translate3d(0,-5px,0);
     box-shadow: 0 52px 74px rgba(0,0,0,.12);
 }
+
+.resume{
+    width: 1000px;
+    height: 1000px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .container{
+          margin: 0 1rem;
+          margin-top: 10px;
+      }
+      .resume{
+          width: 90%;
+          height: 350px;
+      }
+  }

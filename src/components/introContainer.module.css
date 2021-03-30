@@ -5,8 +5,14 @@
     padding: 140px 6em 270px;
 }
 
-@media only screen and (maxwidth : 320px){
-   .introContain{
-       flex-flow: column wrap;
-   } 
-}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .introContain{
+          flex-flow: column;
+          padding: 0 20px 20px;
+          align-items: center;
+          height: 30em;
+      }
+  }

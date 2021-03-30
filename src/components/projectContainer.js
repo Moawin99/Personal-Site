@@ -44,7 +44,7 @@ const data = [
 
 
 const ProjectBox = (props) => (
-    <div className={boxStyles.projectBox}>
+    <div id="projectBox" className={boxStyles.projectBox}>
         <h1 className={boxStyles.text}>Projects</h1>
         <div className={boxStyles.gridContainer}>
             {data.map((project) => (

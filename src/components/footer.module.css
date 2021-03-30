@@ -11,6 +11,15 @@
 .iconList{
     display: grid;
     list-style: none;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 15px;
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .iconList{
+          grid-template-columns: auto auto auto auto auto auto auto auto ;
+      }
+  }

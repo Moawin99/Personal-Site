@@ -5,13 +5,13 @@ import navbarStyles from './navbar.module.css';
 const NavBar = () => (
     <nav className={navbarStyles.navBar}>
         <ul className={navbarStyles.list}>
-            <NavElements to={"/"}>
+            <NavElements to="aboutMe">
                 About
             </NavElements>
-            <NavElements to={"/"}>
+            <NavElements to="projectBox">
                 Projects
             </NavElements>
-            <NavElements to={"/"}>
+            <NavElements to="resume">
                 Resume
             </NavElements>
         </ul>

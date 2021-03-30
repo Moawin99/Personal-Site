@@ -11,6 +11,7 @@ import Footer from "../components/footer"
 const IndexPage = () => (
   <>
   <Layout>
+    <Header />
     <IntroContainer />
     <AboutMe />
     <ProjectBox />

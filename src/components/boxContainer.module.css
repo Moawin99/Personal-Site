@@ -44,3 +44,21 @@
     right: 225px;
     background: linear-gradient(to right top, #008081, #007681, #006b7f, #00607b, #0a5574);
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .colorBox1{
+          display: none;
+      }
+      .colorBox2{
+          display: none;
+      }
+      .colorBox3{
+          display: none;
+      }
+      .colorBox4{
+          display: none;
+      }
+  }
