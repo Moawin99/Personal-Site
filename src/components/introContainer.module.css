@@ -1,7 +1,7 @@
 .introContain{
     display: flex;
     height: 50em;
-    flex-flow: row wrap;
+    flex-flow: row;
     padding: 140px 6em 270px;
 }
 
