@@ -19,19 +19,19 @@ const data = [
     {
         "name": "Writtery",
         "github": "https://github.com/Moawin99/Journal",
-        "bio": "Full stack Nodejs and React project that serves as a journnal that plays music according to your mood. This utalizes the Spotify Api and filters songs according to mood",
+        "bio": "Full stack Nodejs and React project that serves as a journal that plays music according to your mood. This utilizes the Spotify Api and filters songs according to mood",
         "isLive": false
     },
     {
         "name": "Ghost Kitchen",
         "github": "https://github.com/Moawin99/GhostKitchen",
-        "bio": "Full stack application built with Spring boot and React. Templete kithcen app, users can order food and owners can register restaurants and create menu items for purchase",
+        "bio": "Full stack application built with Spring boot and React. Template kithcen app, users can order food and owners can register restaurants and create menu items for purchase",
         "isLive": false
     },
     {
         "name": "Prodict",
         "github": "https://github.com/Moawin99/CEWIT-Hackthon-Project",
-        "bio": "Machine learning model that predictits Nba mvp. Built in python. Also won CEWIT 2020 best use of google cloud",
+        "bio": "Machine learning model that predicts Nba mvp. Built in python. Also won CEWIT 2020 best use of google cloud",
         "isLive": false
     },
     {
