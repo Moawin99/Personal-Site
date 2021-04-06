@@ -25,7 +25,7 @@ const data = [
     {
         "name": "Ghost Kitchen",
         "github": "https://github.com/Moawin99/GhostKitchen",
-        "bio": "Full stack application built with Spring boot and React. Template kithcen app, users can order food and owners can register restaurants and create menu items for purchase",
+        "bio": "Full stack application built with Spring boot and React. Template kitchen app, users can order food and owners can register restaurants and create menu items for purchase",
         "isLive": false
     },
     {
