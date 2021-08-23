@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column wrap;
     border-radius: 25px;
-    background-color: #fefaf6;
+    background-color: black;
     padding: 1rem;
     justify-content: center;
     align-items: center;
@@ -20,12 +20,14 @@
     display: flex;
     justify-content: center;
     margin-bottom: -8px;
+    color: white;
 }
 
 .bioContainer{
     display: flex;
     justify-content: center;
     width: 70%;
+    color: white;
 }
 
 .buttonContainer{
