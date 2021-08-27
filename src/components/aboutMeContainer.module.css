@@ -26,12 +26,12 @@
 
 .aboutMeText{
     font-size: 3em;
-    color: white;
+    color: black;
 }
 
 .text{
     font-size: 2em;
-    color: white;
+    color: black;
 }
 
 @media only screen 
