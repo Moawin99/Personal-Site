@@ -9,8 +9,8 @@ const ProjectCard = (props) => (
             </div>
             <hr className={cardStyles.line} />
             <div className={cardStyles.buttonContainer}>
-                <button><a href={props.gitUrl}>Github Url</a></button>
-                {props.isLive ? <button><a href={props.projectUrl}>Project Url</a></button>: null}
+                <button className={cardStyles.button}><a href={props.gitUrl}>Github Url</a></button>
+                {props.isLive ? <button className={cardStyles.button}><a href={props.projectUrl}>Project Url</a></button>: null}
             </div>
         </div>
 )
