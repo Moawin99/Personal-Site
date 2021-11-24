@@ -14,6 +14,9 @@ const NavBar = () => (
             <NavElements to="resume">
                 Resume
             </NavElements>
+            <NavElements to="records">
+                Records
+            </NavElements>
         </ul>
     </nav>
 )

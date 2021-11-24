@@ -1,0 +1,48 @@
+.container{
+    background: linear-gradient(to right, #ffc0cb, #800080);
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2.5rem 1rem;
+    margin: 5rem 7rem;;
+    border-radius: 50px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover{
+    transition:all .4s ease-in-out;
+    transform: translate3d(0,-5px,0);
+    box-shadow: 0 52px 74px rgba(0,0,0,.12);
+}
+
+.title{
+    font-size: 3em;
+}
+
+.gridContainer{
+	display: grid;
+	width: 85%;
+    justify-content: center;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, 400px);
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .container{
+          margin: 0 1rem;
+          margin-top: 10px;
+      }
+
+      .gridContainer{
+          width: 85%;
+          justify-content: flex-start;
+      }
+
+      .title{
+          font-size: 1.5em;
+      }
+  }

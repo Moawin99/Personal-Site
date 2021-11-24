@@ -7,6 +7,7 @@ import AboutMe from "../components/aboutMeContainer"
 import ProjectBox from "../components/projectContainer"
 import ResumeBox from "../components/resumeContainer"
 import Footer from "../components/footer"
+import RecordBox from "../components/recordContainer"
 
 const IndexPage = () => (
   <>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <AboutMe />
     <ProjectBox />
     <ResumeBox />
+    <RecordBox />
     <Footer />
   </Layout>
   </>

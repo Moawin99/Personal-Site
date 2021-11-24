@@ -14,9 +14,9 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
       .listItem{
-          margin-left: 5px;
+          margin-left: 3px;
       }
       .itemText{
-          font-size: 18px;
+          font-size: 16.5px;
       }
   }
