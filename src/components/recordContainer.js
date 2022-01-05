@@ -63,6 +63,10 @@ const records = [
 	{
 		title: "Famous Love Songs",
 		picLink: "https://img.discogs.com/8tXvBiXrA_x9KjUV0jTTOd-DHiI=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4767799-1508683643-3275.jpeg.jpg"
+	},
+	{
+		title: "Apricot Princess",
+		picLink: "https://m.media-amazon.com/images/I/71PuqTZtIEL._SL1000_.jpg"
 	}
 ];
 
