@@ -67,6 +67,10 @@ const records = [
 	{
 		title: "Apricot Princess",
 		picLink: "https://m.media-amazon.com/images/I/71PuqTZtIEL._SL1000_.jpg"
+	},
+	{
+		title: "Conversations With The Moon",
+		picLink: "https://images.genius.com/6b5941d30629df29c40edfd1b145261b.1000x1000x1.png"
 	}
 ];
 
