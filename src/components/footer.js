@@ -1,5 +1,5 @@
 import React from 'react';
-import footerStyles from './footer.module.css';
+import * as footerStyles from './footer.module.css';
 import github from '../icons/githubIcon.png';
 import insta from '../icons/instaIcon.png';
 import spotify from '../icons/spotifyIcon.png';

@@ -1,5 +1,5 @@
 import React from 'react';
-import cardStyles from './projectCard.module.css';
+import * as cardStyles from './projectCard.module.css';
 
 const ProjectCard = (props) => (
         <div className={cardStyles.cardContainer}>

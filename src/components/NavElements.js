@@ -1,5 +1,5 @@
 import React from 'react';
-import NavElementStyles from './NavElements.module.css';
+import * as NavElementStyles from './NavElements.module.css';
 
 const NavElements = (props) => (
     <li className={NavElementStyles.listItem}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import boxStyles from './resumeContainer.module.css';
+import * as boxStyles from './resumeContainer.module.css';
 
 const ResumeBox = (props) => (
         <div id="resume" className={boxStyles.container}>

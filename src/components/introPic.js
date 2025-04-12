@@ -1,8 +1,8 @@
 import React from 'react';
-import introDiv from './introDivs.module.css';
+import * as introDiv from './introDivs.module.css';
 import mePic from '../images/BedroomPic.jpg';
 import ColorBox from './boxContainer';
-import boxStyles from './boxContainer.module.css';
+import * as boxStyles from './boxContainer.module.css';
 
 const IntroPic = () => (
     <div className={introDiv.introDiv}>
