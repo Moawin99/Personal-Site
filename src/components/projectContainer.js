@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './projectCard';
-import boxStyles from './projectContainer.module.css';
+import *  as boxStyles from './projectContainer.module.css';
 
 const data = [
     {

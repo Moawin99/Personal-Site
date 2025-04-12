@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import layoutSyles from './layout.module.css';
+import * as layoutSyles from './layout.module.css';
 
 const Layout = ({ children }) => {
   useEffect(() => {

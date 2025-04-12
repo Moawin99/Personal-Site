@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutMeStyles from './aboutMeContainer.module.css';
+import * as aboutMeStyles from './aboutMeContainer.module.css';
 
 const AboutMe = (props) => (
 	<div id="aboutMe" className={aboutMeStyles.aboutMeBox}>

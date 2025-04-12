@@ -1,5 +1,5 @@
 import React from 'react';
-import introContainSyles from './introContainer.module.css';
+import * as introContainSyles from './introContainer.module.css';
 import IntroPic from './introPic';
 import IntroText from './introText';
 

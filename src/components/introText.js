@@ -1,8 +1,8 @@
 import React from 'react';
-import introDivs from './introDivs.module.css';
+import * as introDivs from './introDivs.module.css';
 
 const IntroText = () => (
-    <div className={introDivs.introDiv} className={introDivs.introText}>
+    <div className={`${introDivs.introDiv} ${introDivs.introText}`}>
         <h1 className={introDivs.title}>
             Hi! I'm Mark.
         </h1>
