@@ -49,6 +49,7 @@ const ProjectBox = (props) => (
         <div className={boxStyles.gridContainer}>
             {data.map((project) => (
                 <ProjectCard
+                key={project.name}
                 name={project.name}
                 bio={project.bio}
                 gitUrl={project.github}

@@ -1,6 +1,6 @@
 import React from 'react';
 import RecordCard from './recordCard';
-import recordStyle from './recordContainer.module.css';
+import * as recordStyle from './recordContainer.module.css';
 // import records from './records.js';
 
 const records = [
